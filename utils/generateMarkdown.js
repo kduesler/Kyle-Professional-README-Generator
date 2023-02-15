@@ -34,12 +34,12 @@ function generateMarkdown(data) {
 ${data.description}
   
 ## Table of Contents
-- [Installation](#-Installation)
-- [Usage](#-Usage)
-- [License](#-License)
-- [Contributing](#-Contributing)
-- [Tests](#-Tests)
-- [Questions](#-Contact-Information)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#contact-information)
   
 ## Installation
 ${data.install}
@@ -59,10 +59,10 @@ ${data.contribute}
 ${data.tests}
 
 ## Contact Information
-[${data.GitHub}](github.com/${data.GitHub})
-${data.email}
+GitHub username: [${data.GitHub}](github.com/${data.GitHub})
+Email: ${data.email}
 
-* Use the email address above to reach the developer with any additional questions you have about this project.
+Use the email address above to reach the developer with any additional questions you have about this project.
 
 `;
 }
